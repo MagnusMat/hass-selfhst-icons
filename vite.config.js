@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   build: {
     rollupOptions: {
-      input: "hass-selfhst-icons-tester.js",
+      input: "hass-selfhst-icons.js",
       output: {
         dir: "dist",
         format: "esm",
